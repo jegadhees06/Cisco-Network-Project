@@ -1,0 +1,15 @@
+name,role,vlan,ip,notes
+PC0,Client,10.0,10.10.10.21,Wired via Access-2960
+Laptop0,Client,20.0,10.10.20.21,Wired or via WRT300N-0
+Printer0,Printer,30.0,10.10.30.60,IT VLAN printer
+Main-Server,Server,30.0,10.10.30.50,HTTP/DNS/DHCP services
+Research-L1,Client,40.0,10.10.40.21,Connected via Access-2950
+Laptop1,WiFi,,192.168.0.101,WRT300N-1 DHCP
+GW-VLAN10,Gateway,10.0,10.10.10.1,SVI on Core-3560
+GW-VLAN20,Gateway,20.0,10.10.20.1,SVI on Core-3560
+GW-VLAN30,Gateway,30.0,10.10.30.1,SVI on Core-3560
+GW-VLAN40,Gateway,40.0,10.10.40.1,SVI on Core-3560
+Edge-Loopback,RouterLo,,203.0.113.1,Edge-2811 Loopback0
+R1-Loopback,RouterLo,,172.16.1.1,Router1 Loopback0
+R2-Loopback,RouterLo,,172.16.2.1,Router2 Loopback0
+R3-Loopback,RouterLo,,172.16.3.1,Router3 Loopback0

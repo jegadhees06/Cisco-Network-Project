@@ -1,0 +1,15 @@
+name,ip,reachable
+PC0,10.10.10.21,True
+Laptop0,10.10.20.21,True
+Printer0,10.10.30.60,True
+Main-Server,10.10.30.50,True
+Research-L1,10.10.40.21,True
+Laptop1,192.168.0.101,True
+GW-VLAN10,10.10.10.1,True
+GW-VLAN20,10.10.20.1,True
+GW-VLAN30,10.10.30.1,True
+GW-VLAN40,10.10.40.1,True
+Edge-Loopback,203.0.113.1,True
+R1-Loopback,172.16.1.1,True
+R2-Loopback,172.16.2.1,True
+R3-Loopback,172.16.3.1,True
